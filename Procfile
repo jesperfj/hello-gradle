@@ -1,1 +1,1 @@
-web: ./build/install/hellogradle/bin/hellogradle
+web: ./build/install/app/bin/app

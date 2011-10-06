@@ -6,6 +6,7 @@ defaultTasks 'install'
 version = '1.0.2'
 
 mainClassName = "HelloWorld"
+applicationName = "app"
 
 repositories {
     mavenCentral()
