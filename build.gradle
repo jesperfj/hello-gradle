@@ -1,0 +1,21 @@
+apply plugin:'java'
+apply plugin:'application'
+
+defaultTasks 'install'
+
+version = '1.0.2'
+
+mainClassName = "HelloWorld"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.eclipse.jetty:jetty-servlet:7.4.5.v20110725'
+    compile 'javax.servlet:servlet-api:2.5'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.0-milestone-3'
+}
